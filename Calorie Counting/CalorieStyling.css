@@ -1,0 +1,174 @@
+body{
+    background-color: hsl(228, 26%, 50%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.countButton{
+    padding: 10px;
+    width: 92px;
+    border-top-right-radius: 7px;
+    margin-left: -7px;
+    background-color: white;
+    border: 2px none;
+    border-bottom: 2px solid hsl(228, 26%, 50%); 
+    border-left: 2px solid hsl(228, 26%, 50%);
+    color: rgb(33, 36, 49); 
+}
+
+.countButton:hover{
+    background-color: hsl(0, 0%, 75%);
+}
+
+.foodInput{
+    padding: 10px;
+    margin-top: auto;
+    width: 440px;
+    border-top-left-radius: 7px;
+    background-color: white;
+    border: 2px none; 
+    border-top: 2px hsl(228, 26%, 50%); 
+
+}
+
+.card{
+    background-color: hsl(264, 12%, 30%);
+    padding: 24px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: 2px solid white;     
+}
+
+.cardInside{
+    background:  hsl(228, 26%, 50%);
+    margin-left: 10px;
+    border-radius: 10px;
+    max-width: 551px;
+    width: 550px;
+    min-width: 549px;
+    border: 2px solid white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.countCard{
+    align-content: center;
+    max-width: 300px;
+    width: 300px;
+    margin-right: 30px;
+}
+
+.count{
+    place-self: start;
+    
+    color: hsl(228, 26%, 50%);
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.foodDisplay{
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+
+.foodDisplay::first-letter {
+    text-transform: uppercase;
+}
+
+.calorieDisplay{
+    align-self: center;
+    margin-top: -10PX;
+
+}
+
+.carbDisplay{
+    align-self: flex-start;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: white;
+}
+
+.cholesterolDisplay{
+    align-self: flex-start;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: white;
+}
+
+.fatDisplay{
+    align-self: center;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    margin-top: -100px;
+}
+
+.proteinDisplay{
+    align-self: center;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    margin-top: -10px;
+
+}
+
+.sodiumDisplay{
+    align-self: flex-end;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: -100px;
+    color: white;
+}
+
+.sugarDisplay{
+    align-self: flex-end;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: white;
+}
+
+.gramDisplay{
+    align-self: center;
+    color: white;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+.alterInput{
+    border-radius: 5px;
+    margin-left: 305px;
+    margin-bottom: -50px;
+    width: 30px;
+    text-align: center;
+}
+.alterForm{
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+
+.box{
+    background-color: hsl(264, 12%, 30%);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 25px;
+    margin-top:5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
